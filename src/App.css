@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.top-header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 1200px;
+}
+ul {
+  display: flex;
+}
+.Header {
+  display: flex;
+
   flex-direction: column;
   align-items: center;
+}
+.Header li {
+  margin: 15px;
+  list-style: none;
+}
+.cover img {
+  object-fit: cover;
+  width: 1200px;
+}
+.logo img {
+  width: 100px;
+}
+
+main img {
+  height: 220px;
+  width: 160px;
+  object-fit: cover;
+}
+.section {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  flex-wrap: wrap;
+  margin-top: 15px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.product {
+  width: 180px;
+  margin-top: 10px;
+  margin: 10px;
+
+  text-align: left;
+  border: solid 1px lightgray;
+}
+.product img {
+  width: 100%;
+}
+.product p {
+  border: solid 1 px red;
 }
 
-.App-link {
-  color: #61dafb;
+p {
+  font-size: 13px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Offer {
+  display: flex;
+  justify-content: space-around;
+  background-color: lightgray;
+  margin-top: 50px;
+}
+
+.Offer img {
+  height: 300px;
 }
